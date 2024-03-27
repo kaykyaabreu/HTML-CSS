@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+        }
+
+        caption{
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.849);
+            font-size: 1.5em;
+            font-weight: bolder;
+            border: 1px solid black;
+            background-image: linear-gradient(to top, rgb(70, 41, 41), burlywood );
+            border-radius: 30px 30px 0px 0px;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px 20px;
+            
+        }
+
+        td{
+            background-color: burlywood;
+        }
+
+        th{
+            background-color: rgb(70, 41, 41);
+            color: rgba(255, 255, 255, 0.856);
+        }
+
+    </style>
+    <title>tabela</title>
+</head>
+<body>
+    <table>
+        <caption scope="col">filmes favoritos</caption>
+        <tr>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="col">Filmes</th>
+            
+        </tr>
+        <tr>
+            <th rowspan="3" scope="row">mulheres</th>
+            <td>Ana maria santos</td>
+            <td>alien</td>
+            <td>rambo</td>
+            <td>vingadores</td>
+            
+        </tr>
+        <tr>
+
+            <td>beatriz sousa</td>
+            <td>hulk</td>
+            <td> inseption</td>
+            <td>batman</td>
+        </tr>
+        <tr>
+            
+            <td>claudia melo</td>
+            <td>oblivion</td>
+            <td>matrix</td>
+            <td>big hero</td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="row">homens</th>
+            <td>bruno mendonca</td>
+            <td>intocaveis</td>
+            <td>amnesia</td>
+            <td>gladiador</td>
+            
+        </tr>
+        <tr>
+            
+            <td>daniel lourenco</td>
+            <td>wall-e</td>
+            <td>oldboy</td>
+            <td>dangal</td>
+            
+        </tr>
+        <tr>
+            
+            <td>fabiano mota</td>
+            <td>star wars 5</td>
+            <td>taxi driver</td>
+            <td>toy story</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
