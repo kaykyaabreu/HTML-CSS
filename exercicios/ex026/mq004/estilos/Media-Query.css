@@ -21,7 +21,7 @@ main h1{
 
 main{
     border: 2px solid black;
-}
+} 
 
 main::after{
     content: "Site criado para estudo por Kayky Abraão de Abreu Costa";
