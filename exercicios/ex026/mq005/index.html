@@ -15,8 +15,9 @@
         }
         </style>
     <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/MediaQuery.css">
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header>
         <h1> Meu Site</h1>
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
@@ -50,6 +51,15 @@
                 }
             }
         
+    </script>
+    <script>
+        function mundouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
     </script>
 </body>
 </html>
